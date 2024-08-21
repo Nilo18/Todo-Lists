@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Lists</title>
+  <script src="./array.js" defer></script>
+  <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+
+<div class="todo-container">
+  <div class="todo1">
+    <p>Todo List Practice 1</p>
+    <input type="text" placeholder="Todo name" id="todo1__input">
+    <button id="todo1__btn" onclick="toDo1()">Add</button>
+  </div>
+
+  <div class="todo2">
+    <p>Todo List Practice 2</p>
+    <input type="text" placeholder="Todo name" id="todo2__input">
+    <button id="todo2__btn" onclick="toDo2()">Add</button>
+    <ul id="todos"></ul>
+  </div>
+
+  <div class="todo3" id="js-toDo3">
+   <p>Todo List</p>
+   <div class="todo3__inputContainer">
+    <input type="text" placeholder="Todo name" id="todo3__input" class="styleTodo3__input">
+    <input type="date" class="todo3__dateInput" id="js-dateInput">
+    <button id="todo3__btn" onclick="toDo3()" class="todo3__addButton">Add</button>
+   </div>
+  </div>
+ </div>
+
+</body>
+</html>

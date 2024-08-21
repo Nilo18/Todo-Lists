@@ -1,0 +1,70 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.todo3 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 579px;
+}
+
+.styleTodo3__input {
+  width: 240px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+}
+
+.todo3__dateInput {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 45px;
+  width: 160px;
+}
+
+.todo3__addButton {
+  background-color: rgb(0, 148, 0);
+  color: white;
+  border: none;
+  height: 48.3px;
+  padding-right: 45px;
+  padding-left: 45px;
+  cursor: pointer;
+}
+
+.todo3__deleteButton {
+  background-color: darkred;
+  color: white;
+  border: none;
+  height: 50px;
+  padding-right: 36px;
+  padding-left: 36px;
+  cursor: pointer;
+}
+
+.todo3__listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 11px;
+}
+
+
+.todo-list {
+  padding-left: 3px;
+  list-style-type: none;
+}
+
+.date-container {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  align-items: center;
+}
